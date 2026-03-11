@@ -1,5 +1,7 @@
 package com.wordle.wordlegame;
 
+import javafx.animation.FadeTransition;
+import javafx.animation.PauseTransition;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -11,6 +13,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 import java.awt.*;
 import java.io.IOException;
@@ -20,8 +23,9 @@ public class App extends Application {
     private Label[][] board = new Label[6][5];
     private int currentCol = 0;
     private int currentRow = 0;
-
     private String secretWord;
+    private Label invalidWordLabel = new Label("");
+
 
     private void checkWord(String guess) {
         char[] guessCharacters = guess.toCharArray();
@@ -66,6 +70,7 @@ public class App extends Application {
         gridPane.setAlignment(Pos.CENTER);
         gridPane.setHgap(12);
         gridPane.setVgap(12);
+        gridPane.add(invalidWordLabel, 0, 6, 5, 1);
 
         for (int row = 0; row < 6; row++) {
             for (int col = 0; col < 5; col++) {
@@ -102,11 +107,13 @@ public class App extends Application {
                         }
 
                         if (!WordLoader.invalidWord(guessWord)) {
-                            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                            alert.setTitle("Invalid Word");
-                            alert.setHeaderText(null);
-                            alert.setContentText("The word " +guessWord+ " does not exist!");
-                            alert.showAndWait();
+                            invalidWordLabel.getStyleClass().add("message");
+                            invalidWordLabel.setText("Invalid Word!");
+                            invalidWordLabel.setOpacity(1);
+                            FadeTransition fadeOutWord = new FadeTransition(Duration.seconds(2), invalidWordLabel);
+                            fadeOutWord.setFromValue(1.0);
+                            fadeOutWord.setToValue(0.0);
+                            fadeOutWord.play();
 
                             for (int i = 0; i < 5; i++) {
                                 board[currentRow][i].setText("");
