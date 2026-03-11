@@ -100,6 +100,21 @@ public class App extends Application {
                         for (int i = 0; i < 5; i++) {
                             guessWord += board[currentRow][i].getText();
                         }
+
+                        if (!WordLoader.invalidWord(guessWord)) {
+                            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                            alert.setTitle("Invalid Word");
+                            alert.setHeaderText(null);
+                            alert.setContentText("The word " +guessWord+ " does not exist!");
+                            alert.showAndWait();
+
+                            for (int i = 0; i < 5; i++) {
+                                board[currentRow][i].setText("");
+                            }
+                            currentCol = 0;
+                            return;
+                        }
+
                         checkWord(guessWord);
 
                         if (guessWord.equals(secretWord)) {

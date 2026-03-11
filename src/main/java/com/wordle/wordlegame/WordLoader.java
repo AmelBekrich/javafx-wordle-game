@@ -13,12 +13,14 @@ import java.util.Random;
 
 public class WordLoader {
 
-    private List<String> wordList;
-    private String secretWord;
+    private static List<String> wordList = new ArrayList<>();
+    private final String secretWord;
 
 
     public WordLoader() {
-        loadWordXML();
+        if (wordList.isEmpty()) {
+            loadWordXML();
+        }
         secretWord = loadRandomWord();
     }
 
@@ -53,6 +55,10 @@ public class WordLoader {
         }
         Random random = new Random();
         return wordList.get(random.nextInt(wordList.size()));
+    }
+
+    public static boolean invalidWord(String word) {
+        return wordList.contains(word);
     }
 }
 
