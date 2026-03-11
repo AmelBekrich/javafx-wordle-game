@@ -9,7 +9,8 @@ The game pulls words from an XML file and highlights letters.
   - Changes to green when a letter is in the correct place
   - Changes to yellow when a letter exists in the word
   - Random words from an XML file (more to be added)
-  - Pop-up Win or Lose message
+  - Pop-up "Win" or "Lose" alert
+  - Pop-up "Invalid Word" alert 
   - Restart button
 
 # Technologies
