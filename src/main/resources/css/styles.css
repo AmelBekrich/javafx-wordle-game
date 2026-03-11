@@ -36,3 +36,18 @@
     -fx-background-color: gray;
     -fx-background-radius: 8px;
 }
+
+.button {
+    -fx-text-fill: #ebf4ff;
+    -fx-font-size: 40px;
+    -fx-padding: 0 0 30 0;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+    -fx-transition: all 0.2s ease;
+}
+
+.button:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}

@@ -4,6 +4,8 @@ import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
@@ -49,6 +51,7 @@ public class App extends Application {
         }
     }
 
+
     @Override
     public void start(Stage stage) throws IOException {
 
@@ -75,14 +78,11 @@ public class App extends Application {
             }
         }
 
+        Button restartButton = new Button("Restart");
+        restartButton.setOnAction(e -> gameRestart());
+        restartButton.getStyleClass().add("button");
 
         BorderPane root = new BorderPane();
-        root.setTop(titleLabel);
-        root.setCenter(gridPane);
-        BorderPane.setAlignment(titleLabel, Pos.CENTER);
-        root.setPadding(new Insets(30,0,0,0));
-
-
         Scene scene = new Scene(root, 500, 700);
         scene.getStylesheets().add(getClass().getResource("/css/styles.css").toExternalForm());
         scene.setOnKeyTyped(keyEvent -> {
@@ -101,8 +101,18 @@ public class App extends Application {
                             guessWord += board[currentRow][i].getText();
                         }
                         checkWord(guessWord);
+
+                        if (guessWord.equals(secretWord)) {
+                            winMessage();
+                            return;
+                        }
+
                         currentRow++;
                         currentCol = 0;
+
+                        if (currentRow == 6) {
+                            loseMessage();
+                        }
                     }
                     break;
 
@@ -118,6 +128,13 @@ public class App extends Application {
             }
         });
 
+        root.setTop(titleLabel);
+        root.setCenter(gridPane);
+        root.setBottom(restartButton);
+        root.setPadding(new Insets(30,0,30,0));
+        BorderPane.setAlignment(titleLabel, Pos.CENTER);
+        BorderPane.setAlignment(restartButton, Pos.CENTER);
+
 
         stage.setTitle("Wordle");
         stage.setResizable(false);
@@ -125,7 +142,39 @@ public class App extends Application {
         stage.show();
     }
 
+    private void winMessage() {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Game Over");
+        alert.setHeaderText("You Win!");
+        alert.setContentText("The correct word is:  " +secretWord);
+        alert.showAndWait();
+    }
 
+    private void loseMessage() {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Game Over");
+        alert.setHeaderText("You Lose!");
+        alert.setContentText("The correct word is:  " +secretWord);
+        alert.showAndWait();
+    }
+
+    private void gameRestart() {
+        WordLoader wordLoader = new WordLoader();
+        secretWord = wordLoader.getSecretWord();
+//        System.out.println("New secret word is:  " +secretWord);
+
+        currentRow = 0;
+        currentCol = 0;
+
+        for (int row = 0; row < 6; row++) {
+            for (int col = 0; col < 5; col++) {
+                board[row][col].setText("");
+                board[row][col].setStyle("");
+                board[row][col].getStyleClass().clear();
+                board[row][col].getStyleClass().add("tile");
+            }
+        }
+    }
 
     public static void main(String[] args) {
         launch();
