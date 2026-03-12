@@ -7,6 +7,7 @@
     <word>ALGES</word>
     <word>ALBUM</word>
     <word>AWARE</word>
+    <word>ARROW</word>
     <word>ANGER</word>
     <word>AMBER</word>
     <word>APRIL</word>
@@ -23,13 +24,18 @@
     <word>BEACH</word>
     <word>BARNS</word>
     <word>BREAD</word>
+    <word>BEATS</word>
+    <word>BEAST</word>
+    <word>BADGE</word>
     <word>BRAVE</word>
+    <word>BOWER</word>
     <word>BONES</word>
     <word>BLINK</word>
     <word>BONED</word>
     <word>BIGGY</word>
     <word>BLOOM</word>
     <word>BUNCH</word>
+    <word>BUSTS</word>
     <word>BLAST</word>
     <word>BLOCK</word>
     <word>BRICK</word>
@@ -38,21 +44,38 @@
     <word>BUTTS</word>
     <word>BALLS</word>
     <word>BENDS</word>
+    <word>BARDS</word>
+    <word>BEARD</word>
+    <word>BEARS</word>
     <word>BRACE</word>
     <word>BREAK</word>
+    <word>BEERS</word>
     <word>BASIC</word>
     <word>BILLS</word>
 
     <word>CHAIR</word>
     <word>CHILD</word>
+    <word>CHIRM</word>
+    <word>CHIRP</word>
     <word>CLEAR</word>
+    <word>COACH</word>
     <word>CREST</word>
+    <word>COMES</word>
+    <word>COCKS</word>
+    <word>CONES</word>
+    <word>CRANE</word>
+    <word>CAVES</word>
     <word>CHEST</word>
     <word>CHOIR</word>
     <word>CLIMB</word>
+    <word>CULTS</word>
+    <word>CALMS</word>
     <word>CRACK</word>
     <word>CLONE</word>
+    <word>CHART</word>
+    <word>CLOCK</word>
     <word>CROSS</word>
+    <word>COVER</word>
     <word>COINS</word>
     <word>CROWD</word>
     <word>CURVE</word>
@@ -64,20 +87,23 @@
     <word>CREAM</word>
 
     <word>DANCE</word>
+    <word>DARKS</word>
     <word>DREAM</word>
+    <word>DOCKS</word>
     <word>DEALS</word>
     <word>DRINK</word>
     <word>DOLLS</word>
+    <word>DINER</word>
     <word>DOOMS</word>
     <word>DONGS</word>
     <word>DINES</word>
     <word>DIMES</word>
     <word>DINED</word>
-    <word>DIMES</word>
     <word>DRIVE</word>
     <word>DAILY</word>
     <word>DRAFT</word>
     <word>DRILL</word>
+    <word>DUNES</word>
     <word>DELTA</word>
     <word>DODGE</word>
     <word>DEMON</word>
@@ -87,6 +113,7 @@
     <word>EARTH</word>
     <word>ENTER</word>
     <word>EQUAL</word>
+    <word>ERASE</word>
     <word>EAGER</word>
     <word>EVERY</word>
     <word>EXTRA</word>
@@ -103,10 +130,13 @@
     <word>FLEAT</word>
     <word>FATES</word>
     <word>FATED</word>
+    <word>FOOLS</word>
+    <word>FOODS</word>
     <word>FREAK</word>
     <word>FACTS</word>
     <word>FRAME</word>
     <word>FILES</word>
+    <word>FUMES</word>
     <word>FILMS</word>
     <word>FIBER</word>
     <word>FLOOD</word>
@@ -124,17 +154,30 @@
     <word>GAMES</word>
     <word>GIANT</word>
     <word>GRACE</word>
+    <word>GRAVE</word>
     <word>GHOST</word>
     <word>GRIND</word>
     <word>GREEN</word>
+    <word>GRADE</word>
     <word>GRANT</word>
     <word>GENES</word>
+    <word>GRAPE</word>
     <word>GLOVE</word>
+    <word>GIFTS</word>
+    <word>GRASS</word>
+    <word>GUARD</word>
     <word>GUIDE</word>
 
     <word>HAPPY</word>
     <word>HEART</word>
+    <word>HUNTS</word>
     <word>HOUSE</word>
+    <word>HELLS</word>
+    <word>HOMES</word>
+    <word>HOSTS</word>
+    <word>HANDS</word>
+    <word>HINGE</word>
+    <word>HINTS</word>
     <word>HOBBY</word>
     <word>HOBIT</word>
     <word>RHINO</word>
@@ -175,6 +218,8 @@
     <word>KNEES</word>
     <word>KIOSK</word>
     <word>KINGS</word>
+    <word>KILLS</word>
+    <word>KICKS</word>
     <word>KNEED</word>
     <word>KILOS</word>
     <word>KOALA</word>
@@ -183,18 +228,26 @@
     <word>LARVE</word>
     <word>LOCKS</word>
     <word>LANDS</word>
+    <word>LONES</word>
+    <word>LACKS</word>
     <word>LEAVE</word>
     <word>LOVES</word>
+    <word>LOVER</word>
+    <word>LOWER</word>
     <word>LINKS</word>
+    <word>LIFTS</word>
     <word>LEVEL</word>
     <word>LEADS</word>
     <word>LEANS</word>
     <word>LEAPS</word>
     <word>LEDGE</word>
+    <word>LITER</word>
     <word>LAUGH</word>
     <word>LIVES</word>
     <word>LAYER</word>
     <word>LEGAL</word>
+    <word>LUCKY</word>
+    <word>LUCKS</word>
     <word>LASER</word>
     <word>LIMIT</word>
     <word>LENDS</word>
@@ -203,15 +256,25 @@
     <word>LARGE</word>
     <word>LATER</word>
     <word>LUNCH</word>
+    <word>LINES</word>
+    <word>LIMES</word>
 
     <word>MONEY</word>
     <word>MOUTH</word>
     <word>MUSIC</word>
     <word>MOCKS</word>
+    <word>MILKY</word>
     <word>MOUNT</word>
+    <word>MOUSE</word>
+    <word>MISTS</word>
     <word>MODEL</word>
     <word>MINOR</word>
     <word>MAJOR</word>
+    <word>MOVER</word>
+    <word>MOVES</word>
+    <word>MOVED</word>
+    <word>MOWED</word>
+    <word>MOWER</word>
     <word>MANGO</word>
     <word>METAL</word>
     <word>MAGIC</word>
@@ -219,12 +282,17 @@
 
     <word>NIGHT</word>
     <word>NEVER</word>
+    <word>NEEDS</word>
     <word>NORTH</word>
+    <word>NIMBS</word>
     <word>NICKS</word>
+    <word>NOTCH</word>
     <word>NESTS</word>
+    <word>NUDES</word>
     <word>NOVEL</word>
     <word>NOTES</word>
     <word>NOTED</word>
+    <word>NUKED</word>
     <word>NOBLE</word>
     <word>NURSE</word>
     <word>NYLON</word>
@@ -236,6 +304,7 @@
     <word>OFFER</word>
     <word>OLIVE</word>
     <word>ORDER</word>
+    <word>OFTEN</word>
     <word>OTHER</word>
     <word>OUTER</word>
     <word>OWNER</word>
@@ -246,24 +315,34 @@
     <word>PEACH</word>
     <word>PLANT</word>
     <word>PINGS</word>
+    <word>PLUCK</word>
     <word>PLACE</word>
     <word>PINCH</word>
     <word>PLAYS</word>
     <word>POWER</word>
+    <word>PARTS</word>
     <word>PRIDE</word>
     <word>PEACE</word>
     <word>PEARL</word>
     <word>POINT</word>
     <word>PLAIN</word>
+    <word>PACER</word>
     <word>PRESS</word>
     <word>PRINT</word>
+    <word>PUKES</word>
+    <word>PUKED</word>
     <word>PLATE</word>
     <word>PUNCH</word>
     <word>POUND</word>
     <word>PULLS</word>
     <word>PERSH</word>
+    <word>PARIS</word>
+    <word>PACTS</word>
     <word>PALMS</word>
+    <word>PINES</word>
     <word>PILES</word>
+    <word>PUNKS</word>
+    <word>PURSE</word>
     <word>POEMS</word>
 
     <word>QUEEN</word>
@@ -278,14 +357,22 @@
     <word>QUILT</word>
 
     <word>RIVER</word>
+    <word>ROACH</word>
     <word>ROUND</word>
     <word>RIGHT</word>
+    <word>RAKES</word>
     <word>ROYAL</word>
     <word>REACH</word>
+    <word>RINSE</word>
     <word>ROAST</word>
+    <word>ROADS</word>
+    <word>ROCKS</word>
+    <word>RIDES</word>
+    <word>RIDER</word>
     <word>RURAL</word>
     <word>REIGN</word>
     <word>ROPES</word>
+    <word>ROPED</word>
     <word>RAPID</word>
     <word>RIDGE</word>
     <word>ROUGH</word>
@@ -296,8 +383,12 @@
     <word>SMALL</word>
     <word>SPINE</word>
     <word>SOUND</word>
+    <word>SANDS</word>
+    <word>SOULS</word>
     <word>SHARP</word>
     <word>SHEET</word>
+    <word>SNIFF</word>
+    <word>STIFF</word>
     <word>SHEEP</word>
     <word>STAMP</word>
     <word>SHAPE</word>
@@ -308,33 +399,51 @@
     <word>STAGE</word>
     <word>STAKE</word>
     <word>SNAKE</word>
+    <word>SHARE</word>
     <word>STEAM</word>
     <word>STEAK</word>
     <word>STEEP</word>
-    <word>SHEMA</word>
+    <word>SWORD</word>
     <word>STOLE</word>
     <word>STEAL</word>
     <word>STORE</word>
     <word>SENDS</word>
+    <word>SAVER</word>
+    <word>SABER</word>
+    <word>SALES</word>
     <word>SLOPE</word>
+    <word>SILKY</word>
+    <word>SHEAR</word>
     <word>STOMP</word>
     <word>SPEED</word>
+    <word>SPEND</word>
     <word>SINGS</word>
+    <word>SONGS</word>
 
     <word>TABLE</word>
     <word>TILTS</word>
+    <word>TOMES</word>
     <word>TOUCH</word>
     <word>TRAIN</word>
     <word>TRACK</word>
+    <word>TRACE</word>
     <word>THROW</word>
     <word>TONED</word>
+    <word>TOAST</word>
     <word>TREND</word>
     <word>TIGER</word>
     <word>TINTS</word>
     <word>TEAMS</word>
+    <word>TENSE</word>
+    <word>TUCKS</word>
     <word>TOOTH</word>
     <word>TRUST</word>
     <word>TEETH</word>
+    <word>THYME</word>
+    <word>TIMES</word>
+    <word>TONES</word>
+    <word>TONER</word>
+    <word>TOWER</word>
     <word>TRASH</word>
     <word>TRUTH</word>
     <word>TIGHT</word>
@@ -364,6 +473,7 @@
 
     <word>WATCH</word>
     <word>WATER</word>
+    <word>WHIRL</word>
     <word>WRITE</word>
     <word>WINGS</word>
     <word>WORLD</word>
@@ -371,6 +481,7 @@
     <word>WINDY</word>
     <word>WRONG</word>
     <word>WIRED</word>
+    <word>WIDER</word>
     <word>WIRES</word>
     <word>WHEAT</word>
     <word>WHEEL</word>
