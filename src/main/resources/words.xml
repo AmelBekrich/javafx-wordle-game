@@ -29,6 +29,7 @@
     <word>BROOM</word>
     <word>BARNS</word>
     <word>BREAD</word>
+    <word>BREEZ</word>
     <word>BEATS</word>
     <word>BALES</word>
     <word>BEAST</word>
@@ -38,6 +39,7 @@
     <word>BLOWS</word>
     <word>BOWER</word>
     <word>BONES</word>
+    <word>BOUND</word>
     <word>BLINK</word>
     <word>BONED</word>
     <word>BIGGY</word>
@@ -57,6 +59,8 @@
     <word>BEARS</word>
     <word>BRACE</word>
     <word>BOMBS</word>
+    <word>BOOBS</word>
+    <word>BEANS</word>
     <word>BREAK</word>
     <word>BEERS</word>
     <word>BASIC</word>
@@ -67,15 +71,18 @@
     <word>CHAIR</word>
     <word>CHILD</word>
     <word>CHIRM</word>
+    <word>CAVED</word>
     <word>CHIRP</word>
     <word>CLEAR</word>
     <word>COACH</word>
     <word>COOLS</word>
     <word>CREST</word>
     <word>COMES</word>
+    <word>CARTS</word>
     <word>COCKS</word>
     <word>CONES</word>
     <word>CRANE</word>
+    <word>C</word>
     <word>CAVES</word>
     <word>CHEST</word>
     <word>CHOIR</word>
@@ -86,6 +93,7 @@
     <word>CRACK</word>
     <word>CLONE</word>
     <word>CARES</word>
+    <word>CARDS</word>
     <word>CHART</word>
     <word>CLOCK</word>
     <word>CROSS</word>
@@ -98,12 +106,15 @@
     <word>CALLS</word>
     <word>CAIRN</word>
     <word>COLOR</word>
+    <word>CREEP</word>
+    <word>CREEK</word>
     <word>CREAM</word>
 
     <word>DANCE</word>
     <word>DARKS</word>
     <word>DREAM</word>
     <word>DOCKS</word>
+    <word>DECAL</word>
     <word>DEALS</word>
     <word>DRINK</word>
     <word>DOLLS</word>
@@ -137,6 +148,7 @@
     <word>EAGER</word>
     <word>EVERY</word>
     <word>EXTRA</word>
+    <word>EQUIP</word>
     <word>EAGLE</word>
     <word>EIGHT</word>
     <word>EDGED</word>
@@ -172,6 +184,7 @@
     <word>FORGE</word>
     <word>FRONT</word>
     <word>FIRES</word>
+    <word>FIRED</word>
 
     <word>GREAT</word>
     <word>GLORY</word>
@@ -189,6 +202,7 @@
     <word>GENES</word>
     <word>GRAPE</word>
     <word>GLOVE</word>
+    <word>GLOCK</word>
     <word>GEARS</word>
     <word>GROOM</word>
     <word>GIFTS</word>
@@ -199,6 +213,8 @@
     <word>HAPPY</word>
     <word>HEART</word>
     <word>HUNTS</word>
+    <word>HOUND</word>
+    <word>HUNGS</word>
     <word>HOUSE</word>
     <word>HELLS</word>
     <word>HOMES</word>
@@ -236,6 +252,7 @@
     <word>JOINT</word>
     <word>JOKER</word>
     <word>JUMPY</word>
+    <word>JEANS</word>
     <word>JUDGE</word>
     <word>JUMPS</word>
     <word>JOLLY</word>
@@ -279,9 +296,14 @@
     <word>LEDGE</word>
     <word>LITER</word>
     <word>LAUGH</word>
+    <word>LOOKS</word>
+    <word>LOCAL</word>
+    <word>LUMPS</word>
     <word>LUCID</word>
     <word>LIVES</word>
     <word>LAYER</word>
+    <word>LAMPS</word>
+    <word>LAMBS</word>
     <word>LOADS</word>
     <word>LEGAL</word>
     <word>LUCKY</word>
@@ -306,6 +328,7 @@
     <word>MOCKS</word>
     <word>MILKY</word>
     <word>MOUNT</word>
+    <word>MOANS</word>
     <word>MOUSE</word>
     <word>MISTS</word>
     <word>MODEL</word>
@@ -314,6 +337,8 @@
     <word>MINED</word>
     <word>MUTES</word>
     <word>MOMMY</word>
+    <word>MUTED</word>
+    <word>MOPED</word>
     <word>MUMMY</word>
     <word>MINDS</word>
     <word>MAJOR</word>
@@ -330,6 +355,7 @@
     <word>MEDAL</word>
 
     <word>NIGHT</word>
+    <word>NOBEL</word>
     <word>NEVER</word>
     <word>NEEDS</word>
     <word>NORTH</word>
@@ -342,6 +368,7 @@
     <word>NOTES</word>
     <word>NOTED</word>
     <word>NUKED</word>
+    <word>NITRO</word>
     <word>NOBLE</word>
     <word>NURSE</word>
     <word>NYLON</word>
@@ -354,6 +381,7 @@
     <word>OLIVE</word>
     <word>ORDER</word>
     <word>OFTEN</word>
+    <word>ORION</word>
     <word>OTHER</word>
     <word>OUTER</word>
     <word>OWNER</word>
@@ -371,6 +399,8 @@
     <word>POWER</word>
     <word>PARTS</word>
     <word>PRIDE</word>
+    <word>PRICE</word>
+    <word>PRISE</word>
     <word>PEACE</word>
     <word>PEARL</word>
     <word>PEAKS</word>
@@ -390,6 +420,7 @@
     <word>PARIS</word>
     <word>PACTS</word>
     <word>PALMS</word>
+    <word>PROBE</word>
     <word>PLANE</word>
     <word>PINES</word>
     <word>PILES</word>
@@ -421,15 +452,22 @@
     <word>REALM</word>
     <word>ROCKS</word>
     <word>ROOMS</word>
+    <word>RUNES</word>
     <word>RIDES</word>
     <word>RIDER</word>
     <word>RURAL</word>
     <word>REIGN</word>
     <word>ROPES</word>
+    <word>ROBES</word>
+    <word>RINGS</word>
     <word>ROPED</word>
     <word>RAPID</word>
     <word>RIDGE</word>
+    <word>ROMEO</word>
+    <word>RIFLE</word>
+    <word>RIOTS</word>
     <word>ROUGH</word>
+    <word>ROLLS</word>
     <word>RANGE</word>
 
     <word>SUGAR</word>
@@ -474,6 +512,7 @@
     <word>SALES</word>
     <word>SLOPE</word>
     <word>SHOWN</word>
+    <word>SHOWS</word>
     <word>SILKY</word>
     <word>SHEAR</word>
     <word>STOMP</word>
@@ -486,6 +525,7 @@
 
     <word>TABLE</word>
     <word>TILTS</word>
+    <word>TRICK</word>
     <word>TOMES</word>
     <word>TOUCH</word>
     <word>THINK</word>
@@ -501,10 +541,15 @@
     <word>TIGER</word>
     <word>TINTS</word>
     <word>TEAMS</word>
+    <word>TEENS</word>
     <word>TENSE</word>
     <word>TUCKS</word>
+    <word>TUNED</word>
+    <word>TREAT</word>
+    <word>TRIMS</word>
     <word>TOOTH</word>
     <word>TRUST</word>
+    <word>TRUNK</word>
     <word>TEETH</word>
     <word>THYME</word>
     <word>TIMES</word>
@@ -523,6 +568,8 @@
     <word>UPPER</word>
     <word>UNITY</word>
     <word>UNFIT</word>
+    <word>UNITS</word>
+    <word>UNITE</word>
     <word>UTILE</word>
     <word>UNZIP</word>
     <word>USHER</word>
@@ -531,6 +578,9 @@
     <word>USUAL</word>
 
     <word>VALUE</word>
+    <word>VASES</word>
+    <word>VINYL</word>
+    <word>VALET</word>
     <word>VISIT</word>
     <word>VINES</word>
     <word>VOICE</word>
@@ -543,13 +593,17 @@
     <word>VAGUE</word>
     <word>VERSE</word>
     <word>VAULT</word>
+    <word>VOCAL</word>
     <word>VALOR</word>
 
     <word>WATCH</word>
+    <word>WANTS</word>
     <word>WATER</word>
     <word>WHIRL</word>
     <word>WRITE</word>
     <word>WINGS</word>
+    <word>WILLY</word>
+    <word>WILLS</word>
     <word>WORLD</word>
     <word>WHALE</word>
     <word>WINDY</word>
@@ -577,6 +631,7 @@
     <word>ZESTY</word>
     <word>ZOOMS</word>
     <word>ZIPPY</word>
+    <word>ZONES</word>
     <word>ZONED</word>
     <word>ZINCY</word>
     <word>ZONAL</word>
