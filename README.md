@@ -18,3 +18,7 @@ The game pulls words from an XML file and highlights letters.
   - Java
   - JavaFX
   - XML
+
+# How to use
+
+  - In IDE, run App.java
