@@ -1,7 +1,6 @@
 package com.wordle.wordlegame;
 
 import javafx.animation.FadeTransition;
-import javafx.animation.PauseTransition;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -11,11 +10,9 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
-import java.awt.*;
 import java.io.IOException;
 
 public class App extends Application {
@@ -23,8 +20,10 @@ public class App extends Application {
     private Label[][] board = new Label[6][5];
     private int currentCol = 0;
     private int currentRow = 0;
+    private int highScore = 0;
     private String secretWord;
     private Label invalidWordLabel = new Label("");
+    private Label highScoreLabel = new Label("High Score");
 
 
     private void checkWord(String guess) {
@@ -53,6 +52,11 @@ public class App extends Application {
                 board[currentRow][i].getStyleClass().add("gray");
             }
         }
+
+        if (guess.equals(secretWord)) {
+            highScore++;
+            highScoreLabel.setText("High Score: " +highScore);
+        }
     }
 
 
@@ -61,7 +65,7 @@ public class App extends Application {
 
         WordLoader wordLoader = new WordLoader();
         secretWord = wordLoader.getSecretWord();
-//        System.out.println("Secret word is: " +secretWord);
+        System.out.println("Secret word is: " +secretWord);
 
         Label titleLabel = new Label("WORDLE");
         titleLabel.getStyleClass().add("title");
@@ -150,10 +154,18 @@ public class App extends Application {
             }
         });
 
+        BorderPane topPane = new BorderPane();
+
+        highScoreLabel.setText("High Score: 0");
+        highScoreLabel.getStyleClass().add("high-score");
         root.setTop(titleLabel);
         root.setCenter(gridPane);
         root.setBottom(restartButton);
         root.setPadding(new Insets(30,0,30,0));
+        topPane.setCenter(titleLabel);
+        topPane.setBottom(highScoreLabel);
+        root.setTop(topPane);
+        BorderPane.setAlignment(highScoreLabel, Pos.CENTER);
         BorderPane.setAlignment(titleLabel, Pos.CENTER);
         BorderPane.setAlignment(restartButton, Pos.CENTER);
 
@@ -170,6 +182,7 @@ public class App extends Application {
         alert.setHeaderText("You Win!");
         alert.setContentText("The correct word is:  " +secretWord);
         alert.showAndWait();
+        newGame();
     }
 
     private void loseMessage() {
@@ -178,12 +191,15 @@ public class App extends Application {
         alert.setHeaderText("You Lose!");
         alert.setContentText("The correct word is:  " +secretWord);
         alert.showAndWait();
+        highScore = 0;
+        highScoreLabel.setText("High Score: 0");
+        newGame();
     }
 
-    private void gameRestart() {
+    private void newGame() {
         WordLoader wordLoader = new WordLoader();
         secretWord = wordLoader.getSecretWord();
-//        System.out.println("New secret word is:  " +secretWord);
+        System.out.println("New secret word is:  " +secretWord);
 
         currentRow = 0;
         currentCol = 0;
@@ -196,6 +212,26 @@ public class App extends Application {
                 board[row][col].getStyleClass().add("tile");
             }
         }
+    }
+
+    private void gameRestart() {
+        WordLoader wordLoader = new WordLoader();
+        secretWord = wordLoader.getSecretWord();
+        System.out.println("New word after restart is: " +secretWord);
+
+        currentRow = 0;
+        currentCol = 0;
+
+        for (int row = 0; row < 6; row++) {
+            for (int col = 0; col < 5; col++) {
+                board[row][col].setText("");
+                board[row][col].setStyle("");
+                board[row][col].getStyleClass().clear();
+                board[row][col].getStyleClass().add("tile");
+            }
+        }
+        highScore = 0;
+        highScoreLabel.setText("High Score: 0");
     }
 
     public static void main(String[] args) {
