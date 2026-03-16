@@ -65,7 +65,7 @@ public class App extends Application {
 
         WordLoader wordLoader = new WordLoader();
         secretWord = wordLoader.getSecretWord();
-        System.out.println("Secret word is: " +secretWord);
+//        System.out.println("Secret word is: " +secretWord);
 
         Label titleLabel = new Label("WORDLE");
         titleLabel.getStyleClass().add("title");
@@ -199,7 +199,7 @@ public class App extends Application {
     private void newGame() {
         WordLoader wordLoader = new WordLoader();
         secretWord = wordLoader.getSecretWord();
-        System.out.println("New secret word is:  " +secretWord);
+//        System.out.println("New secret word is:  " +secretWord);
 
         currentRow = 0;
         currentCol = 0;
@@ -217,7 +217,7 @@ public class App extends Application {
     private void gameRestart() {
         WordLoader wordLoader = new WordLoader();
         secretWord = wordLoader.getSecretWord();
-        System.out.println("New word after restart is: " +secretWord);
+//        System.out.println("New word after restart is: " +secretWord);
 
         currentRow = 0;
         currentCol = 0;
