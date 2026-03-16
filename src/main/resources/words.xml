@@ -3,10 +3,21 @@
 <words>
     <word>APPLE</word>
     <word>AIMED</word>
+    <word>ALONE</word>
+    <word>APPLY</word>
+    <word>ATONE</word>
+    <word>AIRED</word>
+    <word>APPEL</word>
+    <word>AILED</word>
+    <word>ABBAS</word>
+    <word>ARGON</word>
+    <word>AIDED</word>
+    <word>ARRAY</word>
+    <word>AGONE</word>
+    <word>AGING</word>
     <word>ARMED</word>
     <word>ANGEL</word>
     <word>ALIVE</word>
-    <word>ALGES</word>
     <word>ALBUM</word>
     <word>AWARE</word>
     <word>ARROW</word>
@@ -30,6 +41,15 @@
     <word>BEACH</word>
     <word>BEAKS</word>
     <word>BROOM</word>
+    <word>BEAMS</word>
+    <word>BEAKY</word>
+    <word>BEANY</word>
+    <word>BARKY</word>
+    <word>BARMY</word>
+    <word>BEATY</word>
+    <word>BEEPS</word>
+    <word>BEAMY</word>
+    <word>BEEFS</word>
     <word>BARNS</word>
     <word>BREAD</word>
     <word>BREEZ</word>
@@ -62,6 +82,7 @@
     <word>BEARS</word>
     <word>BRACE</word>
     <word>BOMBS</word>
+    <word>BRAIN</word>
     <word>BOOBS</word>
     <word>BOOMS</word>
     <word>BERRY</word>
@@ -92,7 +113,6 @@
     <word>CAVES</word>
     <word>CHEST</word>
     <word>CHOIR</word>
-
     <word>CLIMB</word>
     <word>CULTS</word>
     <word>CALMS</word>
@@ -129,6 +149,13 @@
     <word>DRINK</word>
     <word>DOLLS</word>
     <word>DINER</word>
+    <word>DEEDS</word>
+    <word>DEERS</word>
+    <word>DEEDY</word>
+    <word>DEEVS</word>
+    <word>DEENS</word>
+    <word>DEEMS</word>
+    <word>DEEPS</word>
     <word>DOOMS</word>
     <word>DONGS</word>
     <word>DINES</word>
@@ -309,8 +336,10 @@
     <word>LIFTS</word>
     <word>LEVEL</word>
     <word>LEADS</word>
+    <word>LEADY</word>
     <word>LEANS</word>
     <word>LEAPS</word>
+    <word>LEETS</word>
     <word>LEDGE</word>
     <word>LITER</word>
     <word>LAUGH</word>
@@ -344,6 +373,7 @@
     <word>MONEY</word>
     <word>MOUTH</word>
     <word>MACES</word>
+    <word>MAFIA</word>
     <word>MOODY</word>
     <word>MOLES</word>
     <word>MUSIC</word>
@@ -416,6 +446,13 @@
     <word>OPENS</word>
 
     <word>PEACH</word>
+    <word>PEEPS</word>
+    <word>PEANS</word>
+    <word>PEEKS</word>
+    <word>PISSY</word>
+    <word>POOPS</word>
+    <word>PEATS</word>
+    <word>PEENS</word>
     <word>PLANT</word>
     <word>PLOWS</word>
     <word>PLANK</word>
@@ -432,10 +469,12 @@
     <word>PRICE</word>
     <word>PRISE</word>
     <word>PEACE</word>
+    <word>PEALS</word>
     <word>PEARL</word>
     <word>PEAKS</word>
     <word>POINT</word>
     <word>PEARS</word>
+    <word>PEAGS</word>
     <word>PLAIN</word>
     <word>PACER</word>
     <word>PRESS</word>
@@ -591,6 +630,7 @@
     <word>TEENS</word>
     <word>TENSE</word>
     <word>TUCKS</word>
+    <word>TURBO</word>
     <word>TUNED</word>
     <word>TREAT</word>
     <word>TRIMS</word>
