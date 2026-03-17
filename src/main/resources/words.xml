@@ -50,6 +50,7 @@
     <word>BEEPS</word>
     <word>BEAMY</word>
     <word>BEEFS</word>
+    <word>BEEFY</word>
     <word>BARNS</word>
     <word>BREAD</word>
     <word>BREEZ</word>
@@ -84,6 +85,18 @@
     <word>BOMBS</word>
     <word>BRAIN</word>
     <word>BOOBS</word>
+    <word>BOOZE</word>
+    <word>BUSKY</word>
+    <word>BOOZY</word>
+    <word>BUMPS</word>
+    <word>BULLY</word>
+    <word>BULLS</word>
+    <word>BROIL</word>
+    <word>BEVER</word>
+    <word>BUMPY</word>
+    <word>BOILS</word>
+    <word>BUCKS</word>
+    <word>BLISS</word>
     <word>BOOMS</word>
     <word>BERRY</word>
     <word>BURRY</word>
@@ -124,6 +137,16 @@
     <word>CARES</word>
     <word>CARDS</word>
     <word>CHART</word>
+    <word>CABLE</word>
+    <word>CHEAP</word>
+    <word>CLEEP</word>
+    <word>CAMEL</word>
+    <word>CHOKE</word>
+    <word>CHOPS</word>
+    <word>CLUES</word>
+    <word>CREED</word>
+    <word>CLUED</word>
+    <word>CROWS</word>
     <word>CLOCK</word>
     <word>CLAWS</word>
     <word>CROSS</word>
@@ -144,6 +167,11 @@
     <word>DARKS</word>
     <word>DREAM</word>
     <word>DOCKS</word>
+    <word>DOING</word>
+    <word>DOMES</word>
+    <word>DRONE</word>
+    <word>DOPES</word>
+    <word>DOLES</word>
     <word>DECAL</word>
     <word>DEALS</word>
     <word>DRINK</word>
@@ -211,6 +239,7 @@
     <word>FUMES</word>
     <word>FUNKY</word>
     <word>FILMS</word>
+    <word>FOILS</word>
     <word>FIBER</word>
     <word>FLOOD</word>
     <word>FLARE</word>
@@ -235,6 +264,7 @@
     <word>GLASS</word>
     <word>GLOSS</word>
     <word>GHOST</word>
+    <word>GLIDE</word>
     <word>GRIND</word>
     <word>GREEN</word>
     <word>GRADE</word>
@@ -520,6 +550,21 @@
     <word>ROADS</word>
     <word>REALM</word>
     <word>ROCKS</word>
+    <word>RADAR</word>
+    <word>ROARS</word>
+    <word>ROAMS</word>
+    <word>ROARY</word>
+    <word>ROOTS</word>
+    <word>ROOTY</word>
+    <word>ROUTE</word>
+    <word>ROCKY</word>
+    <word>ROVES</word>
+    <word>ROLES</word>
+    <word>ROOFY</word>
+    <word>ROGUE</word>
+    <word>ROOFS</word>
+    <word>RAMIE</word>
+    <word>ROOMY</word>
     <word>ROOMS</word>
     <word>RUNES</word>
     <word>RIDES</word>
@@ -566,6 +611,26 @@
     <word>STAKE</word>
     <word>SNAKE</word>
     <word>SHARE</word>
+    <word>SABLE</word>
+    <word>STALL</word>
+    <word>SALSE</word>
+    <word>SALLE</word>
+    <word>SALVE</word>
+    <word>SYTHE</word>
+    <word>SAVVY</word>
+    <word>SHEEN</word>
+    <word>SWISS</word>
+    <word>SWIPE</word>
+    <word>SMITE</word>
+    <word>STEAN</word>
+    <word>SHRUB</word>
+    <word>SOLES</word>
+    <word>SOAPS</word>
+    <word>SOAPY</word>
+    <word>SHEAL</word>
+    <word>SHEAS</word>
+    <word>SHEER</word>
+    <word>SHEEL</word>
     <word>STEAM</word>
     <word>STEAK</word>
     <word>SEERS</word>
@@ -626,6 +691,20 @@
     <word>TRANS</word>
     <word>TIGER</word>
     <word>TINTS</word>
+    <word>TIMID</word>
+    <word>TOWED</word>
+    <word>TOMMY</word>
+    <word>TUMMY</word>
+    <word>TOLES</word>
+    <word>TOMBS</word>
+    <word>TOTTY</word>
+    <word>THEME</word>
+    <word>TOLLS</word>
+    <word>TOLLY</word>
+    <word>TOLED</word>
+    <word>THOLE</word>
+    <word>TOOLS</word>
+    <word>TOKES</word>
     <word>TEAMS</word>
     <word>TEENS</word>
     <word>TENSE</word>
@@ -652,6 +731,13 @@
 
     <word>URBAN</word>
     <word>UNDER</word>
+    <word>URGES</word>
+    <word>UNBID</word>
+    <word>UNKID</word>
+    <word>UNLID</word>
+    <word>UNSET</word>
+    <word>UNRIP</word>
+    <word>UNLIT</word>
     <word>UPPER</word>
     <word>UNITY</word>
     <word>UNFIT</word>
@@ -692,6 +778,18 @@
     <word>WHIRL</word>
     <word>WRITE</word>
     <word>WINGS</word>
+    <word>WAGER</word>
+    <word>WHIPS</word>
+    <word>WAGES</word>
+    <word>WAGON</word>
+    <word>WHOLE</word>
+    <word>WILLY</word>
+    <word>WOUND</word>
+    <word>WALTZ</word>
+    <word>WACKS</word>
+    <word>WACKY</word>
+    <word>WOOLY</word>
+    <word>WOOLS</word>
     <word>WOODS</word>
     <word>WOODY</word>
     <word>WONKS</word>
