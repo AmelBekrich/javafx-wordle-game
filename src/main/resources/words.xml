@@ -90,6 +90,15 @@
     <word>BOOZY</word>
     <word>BUMPS</word>
     <word>BULLY</word>
+    <word>BULKY</word>
+    <word>BUNNS</word>
+    <word>BUNNY</word>
+    <word>BOING</word>
+    <word>BOOLS</word>
+    <word>BUNJY</word>
+    <word>BONNY</word>
+    <word>BOOGY</word>
+    <word>BOLLS</word>
     <word>BULLS</word>
     <word>BROIL</word>
     <word>BEVER</word>
@@ -127,6 +136,12 @@
     <word>CHEST</word>
     <word>CHOIR</word>
     <word>CLIMB</word>
+    <word>CURRY</word>
+    <word>CORNS</word>
+    <word>CODER</word>
+    <word>CYBER</word>
+    <word>CROWN</word>
+    <word>CARRY</word>
     <word>CULTS</word>
     <word>CALMS</word>
     <word>CRACK</word>
@@ -238,6 +253,7 @@
     <word>FILES</word>
     <word>FUMES</word>
     <word>FUNKY</word>
+    <word>FUNNY</word>
     <word>FILMS</word>
     <word>FOILS</word>
     <word>FIBER</word>
@@ -272,6 +288,14 @@
     <word>GENES</word>
     <word>GRAPE</word>
     <word>GLOVE</word>
+    <word>GOONS</word>
+    <word>GOONY</word>
+    <word>GOOFY</word>
+    <word>GOOFS</word>
+    <word>GLUED</word>
+    <word>GHOUL</word>
+    <word>GUMMY</word>
+    <word>GAUGE</word>
     <word>GLOCK</word>
     <word>GEARS</word>
     <word>GROOM</word>
@@ -326,6 +350,7 @@
     <word>JOINT</word>
     <word>JOKER</word>
     <word>JUMPY</word>
+    <word>JUMBO</word>
     <word>JEANS</word>
     <word>JUDGE</word>
     <word>JUMPS</word>
@@ -372,6 +397,8 @@
     <word>LEETS</word>
     <word>LEDGE</word>
     <word>LITER</word>
+    <word>LEFTY</word>
+    <word>LICKS</word>
     <word>LAUGH</word>
     <word>LOOMS</word>
     <word>LOOPS</word>
@@ -451,6 +478,15 @@
     <word>NESTS</word>
     <word>NUDES</word>
     <word>NOVEL</word>
+    <word>NOOKY</word>
+    <word>NUKES</word>
+    <word>NULLS</word>
+    <word>NECKS</word>
+    <word>NEWSY</word>
+    <word>NEWER</word>
+    <word>NOOKS</word>
+    <word>NOOBS</word>
+    <word>NUMBS</word>
     <word>NOTES</word>
     <word>NOTED</word>
     <word>NUKED</word>
@@ -467,6 +503,9 @@
     <word>OLIVE</word>
     <word>ORDER</word>
     <word>OFTEN</word>
+    <word>OPERA</word>
+    <word>OVENS</word>
+    <word>OVERS</word>
     <word>ORION</word>
     <word>OTHER</word>
     <word>OUTER</word>
@@ -481,6 +520,8 @@
     <word>PEEKS</word>
     <word>PISSY</word>
     <word>POOPS</word>
+    <word>POOCH</word>
+    <word>POUCH</word>
     <word>PEATS</word>
     <word>PEENS</word>
     <word>PLANT</word>
@@ -530,6 +571,10 @@
     <word>QUEEN</word>
     <word>QUICK</word>
     <word>QUIRK</word>
+    <word>QUALE</word>
+    <word>QUARK</word>
+    <word>QUART</word>
+    <word>QUANT</word>
     <word>QUIET</word>
     <word>QUEST</word>
     <word>QUOTE</word>
@@ -594,6 +639,9 @@
     <word>SOUND</word>
     <word>SOAKS</word>
     <word>SANDS</word>
+    <word>SANDY</word>
+    <word>SPORT</word>
+    <word>SPOTS</word>
     <word>SKULL</word>
     <word>SOULS</word>
     <word>SHARP</word>
@@ -620,6 +668,8 @@
     <word>SAVVY</word>
     <word>SHEEN</word>
     <word>SWISS</word>
+    <word>SWARM</word>
+    <word>SWAMP</word>
     <word>SWIPE</word>
     <word>SMITE</word>
     <word>STEAN</word>
@@ -651,6 +701,13 @@
     <word>SENDS</word>
     <word>SAVER</word>
     <word>SABER</word>
+    <word>SCORN</word>
+    <word>SCOOP</word>
+    <word>SOLER</word>
+    <word>SHORE</word>
+    <word>SOLED</word>
+    <word>SOBER</word>
+    <word>SCORE</word>
     <word>SALES</word>
     <word>SLOPE</word>
     <word>SLEEP</word>
@@ -697,7 +754,6 @@
     <word>TUMMY</word>
     <word>TOLES</word>
     <word>TOMBS</word>
-    <word>TOTTY</word>
     <word>THEME</word>
     <word>TOLLS</word>
     <word>TOLLY</word>
@@ -794,6 +850,8 @@
     <word>WOODY</word>
     <word>WONKS</word>
     <word>WINDS</word>
+    <word>WEEPS</word>
+    <word>WHOOP</word>
     <word>WILLY</word>
     <word>WILLS</word>
     <word>WORLD</word>
