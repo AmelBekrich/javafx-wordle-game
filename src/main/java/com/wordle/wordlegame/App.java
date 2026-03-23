@@ -22,8 +22,8 @@ public class App extends Application {
     private int currentRow = 0;
     private int highScore = 0;
     private String secretWord;
-    private Label invalidWordLabel = new Label("");
-    private Label highScoreLabel = new Label("High Score");
+    private final Label invalidWordLabel = new Label("");
+    private final Label highScoreLabel = new Label("High Score");
 
 
     private void checkWord(String guess) {
